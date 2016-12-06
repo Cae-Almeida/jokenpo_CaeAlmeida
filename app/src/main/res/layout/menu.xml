@@ -1,0 +1,67 @@
+<?xml version= "1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedra"
+        android:id="@+id/pedra"
+        android:onClick="pedra"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tesoura"
+        android:id="@+id/tesoura"
+        android:onClick="tesoura"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Papel"
+        android:id="@+id/papel"
+        android:onClick="papel"
+        />
+    <ImageView
+        android:src="@drawable/pedra"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/jogador"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:src="@drawable/pedra"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/computador"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placarJogador"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text="X"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text= "0"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placarComputador"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
